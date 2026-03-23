@@ -21,13 +21,13 @@ temp = st.slider("🌡️ Average Temperature (°C)", 10, 50, 25)
 soil_type = st.selectbox("🌍 Soil Type", ["Alluvial", "Black", "Red", "Sandy"])
 irrigation = st.select_slider("💧 Irrigation Level", options=["Low", "Medium", "High"])
 
-# Ma'am ke liye special point: Fertilizer
+
 fertilizer = st.slider("🧪 Fertilizer Input (kg/hectare)", 0, 500, 100)
 
 st.markdown("---")
 
 if st.button("🚀 Predict Yield"):
-    # Simple logic for Demo
+   
     prediction = (area * temp * 0.5) + (fertilizer * 0.1)
     st.success(f"✅ Estimated Yield: {prediction:.2f} Metric Tons")
     st.balloons()
