@@ -1,15 +1,15 @@
 
-# 🌾 Crop Yield Prediction System
+# 🌾 AgriYield Predictor
 
-## 📌 Project Overview
-This project is an AI-driven solution designed to predict agricultural crop yields based on environmental and soil parameters. It helps farmers and researchers make data-backed decisions.
+A Machine Learning based system to predict crop yields in India using environmental and soil data.
+
+## 📁 Project Contents
+- **`data/`**: Contains the `dataset.csv` with over 2000 agricultural records.
+- **`notebooks/`**: Includes the Jupyter Notebook used for data cleaning and model training.
+- **`app.py`**: The main Streamlit application file for the user interface.
 
 ## 🚀 Key Features
-* **Machine Learning Backend:** Optimized algorithms for high accuracy.
-* **Dual-Branch Architecture:** Organized using `main` (Production) and `dev` (Development) branches.
-* **Secure API Integration:** Automated deployment directly from Google Colab.
-
-## 🛠️ Technical Stack
-* **Language:** Python
-* **Framework:** Flask / Gradio
-* **Version Control:** Git & GitHub
+- Predicts yields for various crops like Sugarcane, Cotton, Wheat, etc.
+- Considers parameters like Soil Type, pH, Temperature, and Rainfall.
+- Built with Python and Scikit-Learn.
+-
